@@ -1,0 +1,41 @@
+.common {
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+
+.table {
+  composes: common;
+  width: 100%;
+  height: 60vh;
+}
+
+.tableData {
+  composes: common;
+  padding: 5px;
+  background-color: #96d4d4;
+}
+
+.tableDataName {
+  composes: tableData;
+  width: 200px;
+}
+.tableDataEmail {
+  composes: tableData;
+  width: 300px;
+}
+.tableDataBirthday {
+  composes: tableData;
+  width: 100px;
+}
+.tableDataPhone {
+  composes: tableData;
+  width: 200px;
+}
+.tableDataAddress {
+  composes: tableData;
+  width: 500px;
+}
+.tableDataOptions {
+  composes: tableData;
+  width: 50px;
+}
